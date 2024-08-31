@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "sfuidisplay";
+    src: url(./../fonts/ofont.ru_SF\ UI\ Display.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "sfuidisplay";
+    src: url(./../fonts/sfuidisplay_bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "helvetica";
+    src: url(./../fonts/helvetica_bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "helvetica";
+    src: url(./../fonts/helvetica_regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #dcd2ca;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20.5px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.swiper {
+    padding-top: 70px;
+    height: 749px;
+    width: 410px;
+}
+
+.swiper-wrapper {
+    border-radius: 15px;
+}
+
+.swiper-slide {
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-title {
+    font-size: 30.5px;
+    margin-bottom: 18px;
+    font-weight: 900;
+}
+
+.slide-text {
+    font-family: "sfuidisplay";
+    line-height: 1.3;
+    font-size: 20.5px;
+    font-weight: 400;
+}
+
+.slide-1_content {
+    position: absolute;
+    top: 56px;
+    left: 25.6px;
+    right: 25.6px;
+}
+
+.slide-1_content h1{
+    width: 300px;
+    line-height: 1.3;
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.slide-2_content,
+.slide-3_content,
+.slide-4_content {
+    position: absolute;
+    left: 25.6px;
+    right: 25.6px;
+    bottom: 25.6px;
+}
+
+.slide-5_content {
+    position: absolute;
+    left: 25.6px;
+    right: 25.6px;
+    bottom: 39.6px;
+}
+
+.slide-btn {
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 26.5px;
+    font-family: "sfuidisplay";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000;
+    background-image: linear-gradient(rgb(255, 221, 44), rgb(255, 221, 44));
+}
+
+.slide-text-5 {
+    margin-bottom: 40px;
+}
+
+.slide-6 {
+    position: relative;
+}
+
+.slide-6-content {
+    position: absolute;
+    top: 52px;
+    left: 21px;
+}
+
+.slide-6-title {
+    margin-bottom: 34px;
+    font-family: "helvetica";
+    font-weight: 600;
+    color: #333;
+    font-size: 20px;
+}
+
+.slide-6-grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-auto-rows: min-content;
+    row-gap: 20px;
+    width: 390px;
+}
+
+.recommended {
+    margin-bottom: 32px;
+}
+
+.grid-item {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    max-width: 122px !important;
+    max-height: 122px !important;
+    border-radius: 10px;
+    box-shadow: 0px 12px 32px rgba(51, 51, 51, 0.2);
+    overflow: hidden;
+}
+
+.grid-item span {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-size: 9px;
+    padding: 0 10px 12px;
+    line-height: 1.4;
+}
+
+.mb_interesting-title {
+    font-family: "helvetica";
+    font-size: 12.6px;
+    font-weight: 400;
+    color: #9299A2;
+    margin-bottom: 26px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: none;
+}
+
+.swiper__arrows {
+    position: relative;
+    bottom: 55%;
+    left: 0;
+}
+
+.swiper__arrows .swiper-button-prev {
+    position: absolute;
+    top: 0;
+}
+
+.swiper__arrows-img {
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    background-color: #d9d0ca;
+    width: 57px;
+    height: 2px;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: 65px;
+}
+
+.swiper-pagination-bullet:last-child {
+    background-color: #ffdd2c;
+}
+
+.close {
+    user-select: none;
+    position: fixed;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    right: 20%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.none {
+    display: none;
+}
